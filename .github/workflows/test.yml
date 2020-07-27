@@ -17,3 +17,7 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
+        
+    - uses: ragebiswas/actions/action1@master
+      with:
+        milliseconds: 1000
